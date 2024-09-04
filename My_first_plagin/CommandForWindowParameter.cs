@@ -52,13 +52,14 @@ namespace My_first_plagin
             right_parameters.Add("Рама глубина");//0
             right_parameters.Add("Ширина");//1
             right_parameters.Add("Высота");//2
-            right_parameters.Add("Высота двери");//3
-            right_parameters.Add("Ширина двери");//4
-            right_parameters.Add("Высота до подоконника");//5
+            //right_parameters.Add("Высота двери");//3
+            //right_parameters.Add("Ширина двери");//4
+            //right_parameters.Add("Высота до подоконника");//5
             right_parameters.Add("Створка рама толщина");//6
-            right_parameters.Add("Ширина 1");//7
+            //right_parameters.Add("Ширина 1");//7
 
             //--------------------------------------------------------------------------------------------------------------------------
+
             IList<string> parameters_search1 = new List<string>();//0
             parameters_search1.Add("Вертикальный импост глубина");
             parameters_search1.Add("Монтажный зазор глубина");
@@ -66,6 +67,7 @@ namespace My_first_plagin
             parameters_search1.Add("Горизонтальный импост глубина");
             parameters_search1.Add("Створка двери глубина");
             parameters_search1.Add("Створка рама глубина");
+            parameters_search1.Add("Доборный элемент глубина");
 
 
             IList<string> parameters_search2 = new List<string>();//1
@@ -75,40 +77,42 @@ namespace My_first_plagin
             IList<string> parameters_search3 = new List<string>();//2
             parameters_search3.Add("Монтажный зазор высота");
 
-            IList<string> parameters_search4 = new List<string>();//3
-            parameters_search4.Add("Створка двери высота");
+           // IList<string> parameters_search4 = new List<string>();//3
+            //parameters_search4.Add("Створка двери высота");
+           // parameters_search4.Add("Вертикальный импост высота");
 
-            IList<string> parameters_search5 = new List<string>();//4
+            //IList<string> parameters_search5 = new List<string>();//4
             //parameters_search5.Add("Створка двери ширина");
-            //parameters_search5.Add("Створка 1 ширина");
-            parameters_search5.Add("Ширина двери графическая");
-            parameters_search5.Add("Ширина двери отображение");
+            //parameters_search5.Add("Створка 2 ширина");
+            //parameters_search5.Add("Ширина двери графическая");
+            //parameters_search5.Add("Ширина двери отображение");
             //parameters_search5.Add("Створка стекла 2 ширина");
-            //parameters_search5.Add("Горизонтальный импост ширина 2");
-            parameters_search5.Add("Монтажный зазор ширина двери");
+            //parameters_search5.Add("Горизонтальный импост 2 ширина");
+            //parameters_search5.Add("Монтажный зазор ширина двери");
+            //parameters_search5.Add("Горизонтальный импост 1 ширина");
 
-            IList<string> parameters_search6 = new List<string>();//5
-            parameters_search6.Add("Монтажный зазор высота до подоконника");
+            //IList<string> parameters_search6 = new List<string>();//5
+            //parameters_search6.Add("Монтажный зазор высота до подоконника");
 
             IList<string> parameters_search7 = new List<string>();//6
             parameters_search7.Add("Рама стекла толщина");
 
-            IList<string> parameters_search8 = new List<string>();//7
-            parameters_search8.Add("Монтажный зазор ширина 1");
-            parameters_search8.Add("Откосы наружные боковые ширина 1");
-            parameters_search8.Add("Рама ширина 1");
-            parameters_search8.Add("Подоконник ширина 2");
+            //IList<string> parameters_search8 = new List<string>();//7
+            //parameters_search8.Add("Монтажный зазор ширина 1");
+            //parameters_search8.Add("Откосы наружные боковые ширина 1");
+            //parameters_search8.Add("Рама ширина 1");
+            //parameters_search8.Add("Подоконник ширина 2");
 
 
             IList<IList<string>> lists = new List<IList<string>>();
             lists.Add(parameters_search1);
             lists.Add(parameters_search2);
             lists.Add(parameters_search3);
-            lists.Add(parameters_search4);
-            lists.Add(parameters_search5);
-            lists.Add(parameters_search6);
+           // lists.Add(parameters_search4);
+            //lists.Add(parameters_search5);
+            //lists.Add(parameters_search6);
             lists.Add(parameters_search7);
-            lists.Add(parameters_search8);
+            //lists.Add(parameters_search8);
 
 
 

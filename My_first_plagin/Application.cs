@@ -29,10 +29,7 @@ namespace My_first_plagin
                 LargeImage = new BitmapImage(new Uri(iconsDirectoryPath + "red.png"))
             };
 
-            PushButtonData bottonData3 = new PushButtonData(nameof(ThirdClass), "Гоoл", assemblyLocation, typeof(ThirdClass).FullName)
-            {
-                LargeImage = new BitmapImage(new Uri(iconsDirectoryPath + "red.png"))
-            };
+           
 
             PushButtonData bottonData4 = new PushButtonData(nameof(Four_Command), "Гооoл", assemblyLocation, typeof(Four_Command).FullName)
             {
@@ -51,7 +48,7 @@ namespace My_first_plagin
 
             panel.AddItem(bottonData);
             panel.AddItem(bottonData2);
-            panel.AddItem(bottonData3);
+            
             panel.AddItem(bottonData4);
             panel.AddItem(bottonData5);
             panel.AddItem(bottonData6);

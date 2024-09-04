@@ -83,6 +83,8 @@ namespace My_first_plagin
                             {
                                 doc.Delete(elem.Id);
                             }
+
+
                             /*
                             foreach (FamilyParameter elem in list_formula)
                             {
@@ -92,7 +94,6 @@ namespace My_first_plagin
                             */
                             foreach (FamilyParameter elem in renames_parameters)
                             {
-
                                 fm.RemoveParameter(elem);
                             }
 
